@@ -10,3 +10,11 @@ scala> last(List(1, 1, 2, 3, 5, 8))
 res0: Int = 8
 ```
 [blue-print solution](src/main/scala/org/problems/p01/blue-print-solution.md)
+
+##P02 (*) Find the last but one element of a list.
+Example:
+```
+scala> penultimate(List(1, 1, 2, 3, 5, 8))
+res0: Int = 5
+```
+[blue-print solution](src/main/scala/org/problems/p02/blue-print-solution.md)
