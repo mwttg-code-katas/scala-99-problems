@@ -4,7 +4,7 @@ import org.scalatest.{Matchers, WordSpec}
 
 class FlattenListTest extends WordSpec with Matchers {
 
-  "P06 - #FlattenList" should {
+  "P07 - #FlattenList" should {
     "flatten a list of lists" in {
 
 
