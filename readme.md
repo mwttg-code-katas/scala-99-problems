@@ -52,3 +52,11 @@ scala> isPalindrome(List(1, 2, 3, 2, 1))
 res0: Boolean = true
 ```
 [blue-print solution](src/main/scala/org/problems/p06/blue-print-solution.md)
+
+##P07 (**) Flatten a nested list structure.
+Example:
+```
+scala> flatten(List(List(1, 1), 2, List(3, List(5, 8))))
+res0: List[Any] = List(1, 1, 2, 3, 5, 8)
+```
+[blue-print solution](src/main/scala/org/problems/p07/blue-print-solution.md)
