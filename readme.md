@@ -70,3 +70,13 @@ scala> compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
 res0: List[Symbol] = List('a, 'b, 'c, 'a, 'd, 'e)
 ```
 [blue-print solution](src/main/scala/org/problems/p08/blue-print-solution.md)
+
+## P09 (**) Pack consecutive duplicates of list elements into sublists.
+If a list contains repeated elements they should be placed in separate sublists.
+
+Example:
+```
+scala> pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+res0: List[List[Symbol]] = List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))
+```   
+[blue-print solution](src/main/scala/org/problems/p09/blue-print-solution.md)
