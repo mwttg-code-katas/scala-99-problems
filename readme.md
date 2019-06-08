@@ -44,3 +44,11 @@ scala> reverse(List(1, 1, 2, 3, 5, 8))
 res0: List[Int] = List(8, 5, 3, 2, 1, 1)
 ```
 [blue-print solution](src/main/scala/org/problems/p05/blue-print-solution.md)
+
+##P06 (*) Find out whether a list is a palindrome.
+Example:
+```
+scala> isPalindrome(List(1, 2, 3, 2, 1))
+res0: Boolean = true
+```
+[blue-print solution](src/main/scala/org/problems/p06/blue-print-solution.md)
