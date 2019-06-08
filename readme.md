@@ -27,3 +27,13 @@ Example:
 scala> nth(2, List(1, 1, 2, 3, 5, 8))
 res0: Int = 2
 ```
+[blue-print solution](src/main/scala/org/problems/p03/blue-print-solution.md)
+
+##P04 (*) Find the number of elements of a list.
+Example:
+```
+scala> length(List(1, 1, 2, 3, 5, 8))
+res0: Int = 6
+```
+[blue-print solution](src/main/scala/org/problems/p04/blue-print-solution.md)
+
