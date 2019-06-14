@@ -29,4 +29,4 @@ object P16 {
   def dropFunctional[A](n: Int, ls: List[A]): List[A] = 
     ls.zipWithIndex filter { v => (v._2 + 1) % n != 0 } map { _._1 }
 }
-``
+```
