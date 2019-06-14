@@ -1,7 +1,7 @@
 # Scala: 99 Problems
 This repository provides some solution to the 99 scala problems. 
 See:
-* http://aperiodic.net/phil/scala/s-99/
+* <http://aperiodic.net/phil/scala/s-99/>
 
 ## P01 (*) Find the last element of a list
 Example:
@@ -129,3 +129,11 @@ scala> duplicate(List('a, 'b, 'c, 'c, 'd))
 res0: List[Symbol] = List('a, 'a, 'b, 'b, 'c, 'c, 'c, 'c, 'd, 'd)
 ```
 [blue-print solution](src/main/scala/org/problems/p14/blue-print-solution.md)
+
+## P15 (**) Duplicate the elements of a list a given number of times.
+Example:
+```
+scala> duplicateN(3, List('a, 'b, 'c, 'c, 'd))
+res0: List[Symbol] = List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
+```
+[blue-print solution](src/main/scala/org/problems/p15/blue-print-solution.md)
