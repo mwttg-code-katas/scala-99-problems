@@ -175,3 +175,12 @@ scala> rotate(-2, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
 res1: List[Symbol] = List('j, 'k, 'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i)
 ```
 [blue-print solution](src/main/scala/org/problems/p19/blue-print-solution.md)
+
+## P20 (*) Remove the Kth element from a list.
+Return the list and the removed element in a Tuple. Elements are numbered from 0.
+Example:
+```
+scala> removeAt(1, List('a, 'b, 'c, 'd))
+res0: (List[Symbol], Symbol) = (List('a, 'c, 'd),'b)
+```
+[blue-print solution](src/main/scala/org/problems/p20/blue-print-solution.md)
