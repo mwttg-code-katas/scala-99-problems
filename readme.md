@@ -163,3 +163,15 @@ scala> slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
 res0: List[Symbol] = List('d, 'e, 'f, 'g)
 ```
 [blue-print solution](src/main/scala/org/problems/p18/blue-print-solution.md)
+
+## P19 (**) Rotate a list N places to the left.
+Examples:
+```
+scala> rotate(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+res0: List[Symbol] = List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'a, 'b, 'c)
+```
+```
+scala> rotate(-2, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+res1: List[Symbol] = List('j, 'k, 'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i)
+```
+[blue-print solution](src/main/scala/org/problems/p19/blue-print-solution.md)
