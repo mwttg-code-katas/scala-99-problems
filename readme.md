@@ -192,3 +192,21 @@ scala> insertAt('new, 1, List('a, 'b, 'c, 'd))
 res0: List[Symbol] = List('a, 'new, 'b, 'c, 'd)
 ```
 [blue-print solution](src/main/scala/org/problems/p21/blue-print-solution.md)
+
+## P22 (*) Create a list containing all integers within a given range.
+Example:
+```
+scala> range(4, 9)
+res0: List[Int] = List(4, 5, 6, 7, 8, 9)
+```
+[blue-print solution](src/main/scala/org/problems/p22/blue-print-solution.md)
+
+## P23 (**) Extract a given number of randomly selected elements from a list.
+Example:
+```
+scala> randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
+res0: List[Symbol] = List('e, 'd, 'a)
+```
+Hint: Use the solution to problem P20
+
+[blue-print solution](src/main/scala/org/problems/p23/blue-print-solution.md)
