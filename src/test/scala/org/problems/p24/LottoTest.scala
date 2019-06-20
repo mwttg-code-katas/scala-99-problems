@@ -7,7 +7,6 @@ class LottoTest extends WordSpec with Matchers {
     "Lotto: Draw N different random numbers from the set 1..M" in {
       val actual = Lotto.lotto(6, 49)
       actual.size shouldBe 6
-      println(actual)
     }
   }
 }
