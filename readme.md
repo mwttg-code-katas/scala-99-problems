@@ -228,3 +228,17 @@ scala> randomPermute(List('a, 'b, 'c, 'd, 'e, 'f))
 res0: List[Symbol] = List('b, 'a, 'd, 'c, 'e, 'f)
 ```
 [blue-print solution](src/main/scala/org/problems/p25/blue-print-solution.md)
+
+
+...
+
+...
+
+...
+
+## P31 (**) Determine whether a given integer number is prime.
+```
+scala> 7.isPrime
+res0: Boolean = true
+```
+[blue-print solution](src/main/scala/org/problems/p31/blue-print-solution.md)
