@@ -242,3 +242,11 @@ scala> 7.isPrime
 res0: Boolean = true
 ```
 [blue-print solution](src/main/scala/org/problems/p31/blue-print-solution.md)
+
+## P32 (**) Determine the greatest common divisor of two positive integer numbers.
+Use Euclid's algorithm.
+```
+scala> gcd(36, 63)
+res0: Int = 9
+```
+[blue-print solution](src/main/scala/org/problems/p32/blue-print-solution.md)
