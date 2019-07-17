@@ -1,6 +1,6 @@
 package org.problems.p33
 
-object CoPrime extends App {
+object CoPrime {
   implicit class CoPrimeImprovements(val number: Int) {
     def isCoprimeTo(otherNumber: Int): Boolean = {
       gcd(number, otherNumber) == 1
