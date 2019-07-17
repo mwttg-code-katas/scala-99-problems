@@ -258,3 +258,11 @@ scala> 35.isCoprimeTo(64)
 res0: Boolean = true
 ```
 [blue-print solution](src/main/scala/org/problems/p33/blue-print-solution.md)
+
+## P34 (**) Calculate Euler's totient function phi(m).
+Euler's so-called totient function phi(m) is defined as the number of positive integers r (1 <= r <= m) that are coprime to m.
+```
+scala> 10.totient
+res0: Int = 4
+```
+[blue-print solution](src/main/scala/org/problems/p34/blue-print-solution.md)
