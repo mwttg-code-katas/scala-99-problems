@@ -1,7 +1,7 @@
 package org.problems.p33
 
 import org.scalatest.{Matchers, WordSpec}
-import org.problems.p33.CoPrime.CoPrimeImprovments
+import org.problems.p33.CoPrime.CoPrimeImprovements
 
 class CoPrimeTest extends WordSpec with Matchers {
   "P33" should {
