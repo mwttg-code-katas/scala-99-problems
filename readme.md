@@ -266,3 +266,11 @@ scala> 10.totient
 res0: Int = 4
 ```
 [blue-print solution](src/main/scala/org/problems/p34/blue-print-solution.md)
+
+## P35 (**) Determine the prime factors of a given positive integer.
+Construct a flat list containing the prime factors in ascending order.
+```
+scala> 315.primeFactors
+res0: List[Int] = List(3, 3, 5, 7)
+```
+[blue-print solution](src/main/scala/org/problems/p35/blue-print-solution.md)
