@@ -315,3 +315,15 @@ scala> listPrimesinRange(7 to 31)
 res0: List[Int] = List(7, 11, 13, 17, 19, 23, 29, 31)
 ```
 [blue-print solution](src/main/scala/org/problems/p39/blue-print-solution.md)
+
+## P40 (**) Goldbach's conjecture.
+Goldbach's conjecture says that every positive even number greater than 2 is the sum of two prime numbers. 
+E.g. `28 = 5 + 23`. 
+It is one of the most famous facts in number theory that has not been proved to be correct in the general case. 
+It has been numerically confirmed up to very large numbers (much larger than Scala's Int can represent). 
+Write a function to find the two prime numbers that sum up to a given even integer.
+```
+  scala> 28.goldbach
+  res0: (Int, Int) = (5,23)
+```
+[blue-print solution](src/main/scala/org/problems/p40/blue-print-solution.md)
