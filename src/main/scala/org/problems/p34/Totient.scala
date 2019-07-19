@@ -9,7 +9,6 @@ object Totient {
       def helper(currentN: Int, accumulator: Int): Int =
         if (currentN == 0) accumulator
         else {
-          println(s"n = $currentN is coprime to $number ... ${number.isCoprimeTo(currentN)}")
           if (number.isCoprimeTo(currentN)) helper(currentN - 1, accumulator + 1)
           else helper(currentN - 1, accumulator)
         }

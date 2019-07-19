@@ -301,3 +301,9 @@ scala> 10.totient
 res0: Int = 4
 ```
 [blue-print solution](src/main/scala/org/problems/p37/blue-print-solution.md)
+
+## P38 (*) Compare the two methods of calculating Euler's totient function.
+Use the solutions of problems P34 and P37 to compare the algorithms. 
+Try to calculate `phi(10090)` as an example.
+
+[blue-print solution](src/main/scala/org/problems/p38/blue-print-solution.md)
