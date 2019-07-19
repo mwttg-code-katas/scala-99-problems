@@ -307,3 +307,11 @@ Use the solutions of problems P34 and P37 to compare the algorithms.
 Try to calculate `phi(10090)` as an example.
 
 [blue-print solution](src/main/scala/org/problems/p38/blue-print-solution.md)
+
+## P39 (*) A list of prime numbers.
+Given a range of integers by its lower and upper limit, construct a list of all prime numbers in that range.
+```
+scala> listPrimesinRange(7 to 31)
+res0: List[Int] = List(7, 11, 13, 17, 19, 23, 29, 31)
+```
+[blue-print solution](src/main/scala/org/problems/p39/blue-print-solution.md)
